@@ -3,7 +3,6 @@ import { useState } from "react";
 
 export default function Player() {
   const enteredName = useRef();
-
   const [enteredPlayerName, setEnteredPlayerName] = useState("");
 
   function handleClick() {
